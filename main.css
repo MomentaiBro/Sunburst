@@ -1,0 +1,53 @@
+.sunburst{
+    width: 1368px;
+    height: 680px;
+    margin: -11px -11px -11px -11px;
+    overflow: hidden; 
+    background: white;
+}
+
+.sunburst .outer {
+    width: 2000px;
+    height: 910px;
+    padding-top: 1090px;
+    margin: -800px 0 0 -310px;
+    animation: rotate1 2s infinite linear;
+}
+
+.sunburst b{
+    display: block;
+    width: 0;
+    height: 0;
+    border-width: 90px 1000px;
+    margin: -180px 0 0 0;
+    border-color: transparent black;
+    border-style: solid;
+}
+
+.sunburst b:nth-child(1) {
+    transform:rotate(20deg);
+    }
+.sunburst b:nth-child(2) {
+    transform:rotate(40deg);
+}
+.sunburst b:nth-child(3) {
+    transform:rotate(60deg);
+}
+.sunburst b:nth-child(4) {
+    transform:rotate(80deg);
+}
+.sunburst b:nth-child(5) {
+    transform:rotate(100deg);
+}
+.sunburst b:nth-child(6) {
+    transform:rotate(120deg);
+}
+.sunburst b:nth-child(7) {
+    transform:rotate(140deg);
+}
+.sunburst b:nth-child(8) {
+    transform:rotate(160deg);
+}
+.sunburst b:nth-child(9) {
+    transform:rotate(180deg);
+}
