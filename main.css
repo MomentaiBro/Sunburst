@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .sunburst{
     width: 1368px;
     height: 680px;
@@ -11,7 +16,7 @@
     height: 910px;
     padding-top: 1090px;
     margin: -800px 0 0 -310px;
-    animation: rotate1 2s infinite linear;
+    animation: rotate1 1s infinite linear;
 }
 
 .sunburst b{
@@ -20,34 +25,53 @@
     height: 0;
     border-width: 90px 1000px;
     margin: -180px 0 0 0;
-    border-color: transparent black;
+    border-color: transparent #D4AF37;
     border-style: solid;
 }
 
 .sunburst b:nth-child(1) {
     transform:rotate(20deg);
+    border-color: transparent #ff0000;
     }
 .sunburst b:nth-child(2) {
     transform:rotate(40deg);
+    border-color: transparent #FF7F00;
 }
 .sunburst b:nth-child(3) {
     transform:rotate(60deg);
+    border-color: transparent #FFFF00;    
+
 }
 .sunburst b:nth-child(4) {
     transform:rotate(80deg);
+    border-color: transparent #00FF00;
 }
 .sunburst b:nth-child(5) {
     transform:rotate(100deg);
+    border-color: transparent #0000FF;
 }
 .sunburst b:nth-child(6) {
     transform:rotate(120deg);
+    border-color: transparent #2E2B5F;
 }
 .sunburst b:nth-child(7) {
     transform:rotate(140deg);
+    border-color: transparent #8B00FF;
 }
 .sunburst b:nth-child(8) {
     transform:rotate(160deg);
+    
 }
 .sunburst b:nth-child(9) {
     transform:rotate(180deg);
+    border-color: transparent rgb(188, 2, 126);
+}
+
+@keyframes rotate1{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(20deg)
+    }
 }
